@@ -7,11 +7,12 @@
     <ProjectGuid>{38218EF7-86B8-4DBE-AB46-AA8FF877CBB6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Задача_1_Вариант_5__1_</RootNamespace>
-    <AssemblyName>Задача 1 Вариант 5 %281%29</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <AssemblyName>NotePod</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>book_6034.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -88,6 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="book_6034.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -66,5 +66,10 @@ namespace Задача_1_Вариант_5__1_
         {
             toolStripStatusLabel2.Text = "Changed";
         }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Илья Кочанков:\nвозраст: 18 лет,\nрост: 192см\nвес: 78кг");
+        }
     }
 }
