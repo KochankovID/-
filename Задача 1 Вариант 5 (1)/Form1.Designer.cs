@@ -136,6 +136,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(40, 40);
             this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripButton2
             // 
@@ -146,6 +147,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(39, 40);
             this.toolStripButton2.Text = "toolStripButton2";
+            this.toolStripButton2.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripButton3
             // 
@@ -156,6 +158,7 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(36, 40);
             this.toolStripButton3.Text = "toolStripButton3";
+            this.toolStripButton3.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // textBox1
             // 
@@ -171,6 +174,7 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Type text here.\r\nThen save it by cliking \"Save\" button on the toolbar.\r\n";
             this.textBox1.WordWrap = false;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // statusStrip1
             // 
