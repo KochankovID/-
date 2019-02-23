@@ -16,5 +16,10 @@ namespace Задача_1_Вариант_5__1_
         {
             InitializeComponent();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
