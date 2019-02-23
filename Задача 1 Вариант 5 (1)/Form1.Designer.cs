@@ -138,7 +138,7 @@
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::Задача_1_Вариант_5__1_.Properties.Resources.Screenshot_2;
+            this.toolStripButton1.Image = global::Note_Pod.Properties.Resources.Screenshot_2;
             this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
@@ -149,7 +149,7 @@
             // toolStripButton2
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::Задача_1_Вариант_5__1_.Properties.Resources.Screenshot_4;
+            this.toolStripButton2.Image = global::Note_Pod.Properties.Resources.Screenshot_4;
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
@@ -160,7 +160,7 @@
             // toolStripButton3
             // 
             this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::Задача_1_Вариант_5__1_.Properties.Resources.Screenshot_5;
+            this.toolStripButton3.Image = global::Note_Pod.Properties.Resources.Screenshot_5;
             this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
