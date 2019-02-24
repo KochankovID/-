@@ -34,7 +34,7 @@ namespace Задача_1_Вариант_5__1_
             // получаем выбранный файл
             filename = openFileDialog1.FileName;
             // читаем файл в строку
-            textBox1.Text = System.IO.File.ReadAllText(filename);
+            textBox1.Text = System.IO.File.ReadAllText(filename, Encoding.Default);
             saveToolStripMenuItem.Enabled = true;
             toolStripStatusLabel1.Text = "Ready";
             toolStripStatusLabel2.Text = "Saved";
