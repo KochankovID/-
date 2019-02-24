@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{38218EF7-86B8-4DBE-AB46-AA8FF877CBB6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Задача_1_Вариант_5__1_</RootNamespace>
+    <RootNamespace>Note_Pod</RootNamespace>
     <AssemblyName>NotePod</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

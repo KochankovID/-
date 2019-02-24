@@ -26,15 +26,15 @@ namespace Задача_1_Вариант_5__1_
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             toolStripStatusLabel1.Text = "Opening";
-            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
-            {
-                toolStripStatusLabel1.Text = "Ready";
-                return;
-            }
-            // получаем выбранный файл
-            filename = openFileDialog1.FileName;
+            //if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+            //{
+            //    toolStripStatusLabel1.Text = "Ready";
+            //    return;
+            //}
+            //// получаем выбранный файл
+            //filename = openFileDialog1.FileName;
             // читаем файл в строку
-            textBox1.Text = System.IO.File.ReadAllText(filename, Encoding.Default);
+            textBox1.Text = System.IO.File.ReadAllText("E:\\Desktop\\asdf.txt", Encoding.Default);
             saveToolStripMenuItem.Enabled = true;
             toolStripStatusLabel1.Text = "Ready";
             toolStripStatusLabel2.Text = "Saved";
